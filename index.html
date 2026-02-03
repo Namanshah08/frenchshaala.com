@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>FrenchShaala — Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <img src="images/frenchshaala logo.jpg" alt="FrenchShaala logo"/>
+        <h1>FrenchShaala</h1>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="learn-french.html">Learn French ▾</a>
+        <a href="blog.html">Blog</a>
+        <a class="cta" href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h2>Learn French with friendly tutors — live & recorded</h2>
+        <p>Join interactive live classes, study self-paced recorded courses, and attend fun events to speak French confidently.</p>
+        <p><a class="cta" href="learn-french.html">View Programs</a></p>
+      </div>
+      <div style="text-align:center">
+        <img src="images/frenchshaala logo.jpg" alt="logo" style="width:260px;border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,0.06)"/>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Popular Programs</h3>
+      <div class="cards">
+        <div class="card"><h4>Live Online Classes</h4><p>Interactive group & 1:1 sessions with progress reports.</p></div>
+        <div class="card"><h4>Recorded Courses</h4><p>Study at your pace with downloadable materials.</p></div>
+        <div class="card"><h4>Events & Workshops</h4><p>Conversation clubs and exam workshops.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Upcoming Events</h3>
+      <div class="cards">
+        <div class="card"><h4>Conversational Club</h4><p>Practice speaking weekly.</p></div>
+        <div class="card"><h4>DELF Crash</h4><p>Exam practice and tips.</p></div>
+        <div class="card"><h4>Culture Night</h4><p>Learn via films & music.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div>
+        <strong>FrenchShaala</strong>
+        <div style="opacity:.9">Learn • Discover • Connect</div>
+      </div>
+      <div>© <span id="yr"></span> FrenchShaala</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

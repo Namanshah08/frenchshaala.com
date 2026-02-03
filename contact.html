@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact - FrenchShaala</title><link rel="stylesheet" href="style.css"/></head><body>
+<header class="header"><div class="inner"><a class="brand" href="index.html"><img src="images/frenchshaala logo.jpg" alt="logo"/><h1>FrenchShaala</h1></a><nav class="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="blog.html">Blog</a><a class="cta" href="contact.html">Contact</a></nav></div></header>
+<main class="section">
+  <h2>Contact Us</h2>
+  <p>Email: contact@frenchshaala.com</p>
+  <p>Phone: +91 98765 43210</p>
+
+  <form onsubmit="alert('Thanks! We will contact you soon.'); return false;" style="max-width:520px;margin:16px auto;display:grid;gap:8px">
+    <input placeholder="Your name" required style="padding:10px;border-radius:6px;border:1px solid #e6eefc">
+    <input placeholder="Email" required style="padding:10px;border-radius:6px;border:1px solid #e6eefc">
+    <textarea placeholder="Message" rows="6" style="padding:10px;border-radius:6px;border:1px solid #e6eefc"></textarea>
+    <button class="cta" type="submit">Send Message</button>
+  </form>
+</main>
+<footer class="footer"><div class="inner">© <span id="y8"></span> FrenchShaala</div></footer>
+<script>document.getElementById('y8').textContent=new Date().getFullYear();</script>
+</body></html>
